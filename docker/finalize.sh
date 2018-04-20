@@ -8,7 +8,7 @@ set -e
 mv /app/gogs/build/gogs /app/gogs/
 
 # Final cleaning
-rm -rf /app/gogs/build
+# rm -rf /app/gogs/build
 rm /app/gogs/docker/build.sh
 rm /app/gogs/docker/build-go.sh
 rm /app/gogs/docker/finalize.sh
